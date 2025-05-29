@@ -232,7 +232,7 @@ combinedData = {
         autoWhitelist = false,
         fpsbut = true,
         jobId = "",
-        Webhook_URL2 = "https://discord.com/api/webhooks/1217892100834852905/4aBabISkNZwD9IKl3dAZJVKp-TqzsDdsAKIG_j6yHRnJXvzhY11a1rQo-zvKWI5e5bVL",
+        Webhook_URL2 = "https://discord.com/api/webhooks/1377690764003246172/VtLXydFSWEy0m-ktDtW2QSqGMfPqQ7QbriB2pMxphXAmvwyx8ao9xzbVrb8pSSsQ_whN",
         AutoRejoin = false,
         hub = 0.2,
         alime = 0.7,
@@ -1256,7 +1256,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-local Webhook_URL = "https://discord.com/api/webhooks/1217892100834852905/4aBabISkNZwD9IKl3dAZJVKp-TqzsDdsAKIG_j6yHRnJXvzhY11a1rQo-zvKWI5e5bVL" -- Thay URL Webhook của bạn
+local Webhook_URL = "https://discord.com/api/webhooks/1377690764003246172/VtLXydFSWEy0m-ktDtW2QSqGMfPqQ7QbriB2pMxphXAmvwyx8ao9xzbVrb8pSSsQ_whN" -- Thay URL Webhook của bạn
 local HttpService = game:GetService("HttpService")
 local httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 local avatarUrls = {
@@ -2454,7 +2454,7 @@ local timerLabel = Tab:AddLabel("Time: 00:00 | Số Người Trong Raid: 0/6")
 local startTime = nil 
 local isTimerRunning = false 
 local completedMessage = "Đã Hoàn Thành Raid"
-local Webhook_URL1 = "https://discord.com/api/webhooks/1217892100834852905/4aBabISkNZwD9IKl3dAZJVKp-TqzsDdsAKIG_j6yHRnJXvzhY11a1rQo-zvKWI5e5bVL"
+local Webhook_URL1 = "https://discord.com/api/webhooks/1377690764003246172/VtLXydFSWEy0m-ktDtW2QSqGMfPqQ7QbriB2pMxphXAmvwyx8ao9xzbVrb8pSSsQ_whN"
 local Webhook_URL2 = Settings.Webhook_URL2 or ""
 
 local HttpService = game:GetService("HttpService")
@@ -4122,9 +4122,9 @@ hubTab:AddSection({
 })
 
 local HttpService = game:GetService("HttpService")
-local Webhook_HydraChest = "https://discord.com/api/webhooks/1217892100834852905/4aBabISkNZwD9IKl3dAZJVKp-TqzsDdsAKIG_j6yHRnJXvzhY11a1rQo-zvKWI5e5bVL"
+local Webhook_HydraChest = "https://discord.com/api/webhooks/1377690764003246172/VtLXydFSWEy0m-ktDtW2QSqGMfPqQ7QbriB2pMxphXAmvwyx8ao9xzbVrb8pSSsQ_whN"
 local Webhook_URLshop = {
-    "https://discord.com/api/webhooks/1217892100834852905/4aBabISkNZwD9IKl3dAZJVKp-TqzsDdsAKIG_j6yHRnJXvzhY11a1rQo-zvKWI5e5bVL"
+    "https://discord.com/api/webhooks/1377690764003246172/VtLXydFSWEy0m-ktDtW2QSqGMfPqQ7QbriB2pMxphXAmvwyx8ao9xzbVrb8pSSsQ_whN"
 }
 if Settings.Webhook_URL2 and Settings.Webhook_URL2 ~= "" then
     table.insert(Webhook_URLshop, Settings.Webhook_URL2)
@@ -4325,7 +4325,7 @@ end)
 local player = game:GetService("Players").LocalPlayer
 local playerGui = player:FindFirstChild("PlayerGui")
 
-local Webhook_SpawnInfo = "https://discord.com/api/webhooks/1217892100834852905/4aBabISkNZwD9IKl3dAZJVKp-TqzsDdsAKIG_j6yHRnJXvzhY11a1rQo-zvKWI5e5bVL"
+local Webhook_SpawnInfo = "https://discord.com/api/webhooks/1377690764003246172/VtLXydFSWEy0m-ktDtW2QSqGMfPqQ7QbriB2pMxphXAmvwyx8ao9xzbVrb8pSSsQ_whN"
 
 -- Kiểm tra GUI
 if not playerGui then return warn("Không tìm thấy PlayerGui!") end
